@@ -9,6 +9,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Entity
 public class Produto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
